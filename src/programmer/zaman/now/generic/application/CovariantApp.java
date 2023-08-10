@@ -8,9 +8,11 @@ public class CovariantApp {
     MyData<String> stringMyData = new MyData<>("Eko");
     process(stringMyData);
 
+    //contoh penggunaan covariant 1
     MyData<? extends Object> myData = stringMyData;
   }
 
+  //contoh penggunaan covariant 2
   public static void process(MyData<? extends Object> myData){
     System.out.println(myData.getData());
 

@@ -9,6 +9,7 @@ public class ArrayHelperApp {
     Integer[] numbers = {1, 2, 3, 4, 5};
 
     System.out.println(
+//        kalau udah deklarasi genericnya adalah string, jangan pulak dimasukkin datanya integer karna pasti bakal error
         ArrayHelper.<String>count(names)
     );
 

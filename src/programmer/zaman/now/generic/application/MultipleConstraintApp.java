@@ -26,6 +26,7 @@ public class MultipleConstraintApp {
     }
   }
 
+  //haya boleh extend satu class yaitu employee, selanjutnya harus interface
   public static class Data<T extends Employee & CanSayHello>{
 
     private T data;

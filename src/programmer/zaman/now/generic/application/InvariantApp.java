@@ -8,7 +8,7 @@ public class InvariantApp {
   public static void main(String[] args) {
 
     MyData<String> stringMyData = new MyData<>("Eko");
-    // doIt(stringMyData); // ERROR
+    // doIt(stringMyData); // ERROR karena di atas diinisialisasi string dan pas di "doIt" malah jadi object
     // MyData<Object> objectMyData = stringMyData; // ERROR
 
     MyData<Object> objectMyData = new MyData<>(1000);
